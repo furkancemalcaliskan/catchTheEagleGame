@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="catchTheEagleGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qJ8-a2-29y">
+                                <rect key="frame" x="126" y="62" width="123" height="42"/>
+                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="36"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7nh-Le-46U">
+                                <rect key="frame" x="33" y="112.5" width="309" height="33"/>
+                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="28"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dejkoveci" translatesAutoresizingMaskIntoConstraints="NO" id="Yew-Ds-ozb">
+                                <rect key="frame" x="132" y="287" width="111" height="93"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dejkoveci" translatesAutoresizingMaskIntoConstraints="NO" id="QlD-0o-KF2">
+                                <rect key="frame" x="33" y="287" width="111" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="9uC-Ya-TnC"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dejkoveci" translatesAutoresizingMaskIntoConstraints="NO" id="dP5-pP-F2c">
+                                <rect key="frame" x="132" y="388" width="111" height="93"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dejkoveci" translatesAutoresizingMaskIntoConstraints="NO" id="k4H-n5-0Tk">
+                                <rect key="frame" x="231" y="287" width="111" height="93"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dejkoveci" translatesAutoresizingMaskIntoConstraints="NO" id="cvO-bf-Jjr">
+                                <rect key="frame" x="231" y="388" width="111" height="93"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dejkoveci" translatesAutoresizingMaskIntoConstraints="NO" id="lIO-ZW-Bl5">
+                                <rect key="frame" x="33" y="388" width="111" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="pjp-lR-3E4"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created by dejkoveci" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5U2-3n-g2g">
+                                <rect key="frame" x="33" y="614.5" width="309" height="32.5"/>
+                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="28"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dejkoveci" translatesAutoresizingMaskIntoConstraints="NO" id="ahe-z4-5c7">
+                                <rect key="frame" x="132" y="186.5" width="111" height="93"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dejkoveci" translatesAutoresizingMaskIntoConstraints="NO" id="kym-Mj-Djs">
+                                <rect key="frame" x="33" y="186.5" width="111" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="NPX-6e-1Fx"/>
+                                    <constraint firstAttribute="height" constant="93" id="dpf-nI-BJg"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dejkoveci" translatesAutoresizingMaskIntoConstraints="NO" id="lnB-jI-td6">
+                                <rect key="frame" x="231" y="186.5" width="111" height="93"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Highscore: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H92-x0-a88">
+                                <rect key="frame" x="33" y="565" width="309" height="32.5"/>
+                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="28"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QlD-0o-KF2" firstAttribute="top" secondItem="Yew-Ds-ozb" secondAttribute="top" id="0XE-TD-Xg3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cvO-bf-Jjr" secondAttribute="trailing" constant="33" id="0YF-O3-bNG"/>
+                            <constraint firstItem="H92-x0-a88" firstAttribute="top" secondItem="lIO-ZW-Bl5" secondAttribute="bottom" constant="84" id="1DZ-9b-twY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="H92-x0-a88" secondAttribute="trailing" constant="33" id="1Nq-V4-I5N"/>
+                            <constraint firstItem="QlD-0o-KF2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="5Lr-fd-hnq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qJ8-a2-29y" secondAttribute="trailing" constant="126" id="5Ye-Ct-IOO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5U2-3n-g2g" secondAttribute="trailing" constant="33" id="6fp-0Y-CxE"/>
+                            <constraint firstItem="lnB-jI-td6" firstAttribute="leading" secondItem="kym-Mj-Djs" secondAttribute="trailing" constant="87" id="9YD-cM-GBg"/>
+                            <constraint firstItem="QlD-0o-KF2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="A2w-Tf-Lt8"/>
+                            <constraint firstItem="qJ8-a2-29y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="GOh-bZ-OgT"/>
+                            <constraint firstItem="5U2-3n-g2g" firstAttribute="top" secondItem="H92-x0-a88" secondAttribute="bottom" constant="17" id="GbE-cC-zM2"/>
+                            <constraint firstItem="Yew-Ds-ozb" firstAttribute="leading" secondItem="dP5-pP-F2c" secondAttribute="leading" id="HEn-5w-F34"/>
+                            <constraint firstItem="Yew-Ds-ozb" firstAttribute="top" secondItem="k4H-n5-0Tk" secondAttribute="top" id="IjY-mA-Fjt"/>
+                            <constraint firstItem="kym-Mj-Djs" firstAttribute="trailing" secondItem="QlD-0o-KF2" secondAttribute="trailing" id="K48-NS-DVy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5U2-3n-g2g" secondAttribute="bottom" constant="20" id="Kag-P9-ZJR"/>
+                            <constraint firstItem="ahe-z4-5c7" firstAttribute="trailing" secondItem="Yew-Ds-ozb" secondAttribute="trailing" id="LYL-dC-YcO"/>
+                            <constraint firstItem="ahe-z4-5c7" firstAttribute="centerX" secondItem="7nh-Le-46U" secondAttribute="centerX" id="Mx3-iL-naX"/>
+                            <constraint firstItem="Yew-Ds-ozb" firstAttribute="bottom" secondItem="k4H-n5-0Tk" secondAttribute="bottom" id="OCs-fE-gap"/>
+                            <constraint firstItem="ahe-z4-5c7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="132" id="One-ti-fmM"/>
+                            <constraint firstItem="qJ8-a2-29y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="126" id="Qo9-EC-FZi"/>
+                            <constraint firstItem="H92-x0-a88" firstAttribute="top" secondItem="dP5-pP-F2c" secondAttribute="bottom" constant="84" id="SrM-uU-Do1"/>
+                            <constraint firstItem="dP5-pP-F2c" firstAttribute="top" secondItem="cvO-bf-Jjr" secondAttribute="top" id="VUg-rb-RQk"/>
+                            <constraint firstItem="7nh-Le-46U" firstAttribute="top" secondItem="qJ8-a2-29y" secondAttribute="bottom" constant="8.5" id="WZa-da-Jwq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="k4H-n5-0Tk" secondAttribute="trailing" constant="33" id="dL2-3a-NdD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7nh-Le-46U" secondAttribute="trailing" constant="33" id="eAj-Wa-Xtb"/>
+                            <constraint firstItem="lnB-jI-td6" firstAttribute="leading" secondItem="k4H-n5-0Tk" secondAttribute="leading" id="ef7-gf-vVh"/>
+                            <constraint firstItem="ahe-z4-5c7" firstAttribute="bottom" secondItem="lnB-jI-td6" secondAttribute="bottom" id="elH-w3-sph"/>
+                            <constraint firstItem="lnB-jI-td6" firstAttribute="top" secondItem="7nh-Le-46U" secondAttribute="bottom" constant="41" id="f7k-tq-fAR"/>
+                            <constraint firstItem="QlD-0o-KF2" firstAttribute="bottom" secondItem="Yew-Ds-ozb" secondAttribute="bottom" id="fLo-Ix-QSp"/>
+                            <constraint firstItem="7nh-Le-46U" firstAttribute="top" secondItem="qJ8-a2-29y" secondAttribute="bottom" constant="8.5" id="iqd-iw-lSg"/>
+                            <constraint firstItem="ahe-z4-5c7" firstAttribute="top" secondItem="7nh-Le-46U" secondAttribute="bottom" constant="41" id="kIV-sW-B5h"/>
+                            <constraint firstItem="H92-x0-a88" firstAttribute="top" secondItem="cvO-bf-Jjr" secondAttribute="bottom" constant="84" id="kzh-kX-zdT"/>
+                            <constraint firstItem="ahe-z4-5c7" firstAttribute="leading" secondItem="Yew-Ds-ozb" secondAttribute="leading" id="n1S-g3-7IB"/>
+                            <constraint firstItem="Yew-Ds-ozb" firstAttribute="trailing" secondItem="dP5-pP-F2c" secondAttribute="trailing" id="pSX-hM-foK"/>
+                            <constraint firstItem="H92-x0-a88" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="q5A-s2-MF3"/>
+                            <constraint firstItem="lIO-ZW-Bl5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="qR2-aa-Ynz"/>
+                            <constraint firstItem="5U2-3n-g2g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="rI0-IK-aIV"/>
+                            <constraint firstItem="k4H-n5-0Tk" firstAttribute="leading" secondItem="cvO-bf-Jjr" secondAttribute="leading" id="rto-qD-MpF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lnB-jI-td6" secondAttribute="trailing" constant="33" id="sMI-Zo-nG0"/>
+                            <constraint firstItem="7nh-Le-46U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="ubA-E1-uq9"/>
+                            <constraint firstItem="QlD-0o-KF2" firstAttribute="trailing" secondItem="lIO-ZW-Bl5" secondAttribute="trailing" id="ulT-fe-q3E"/>
+                            <constraint firstItem="kym-Mj-Djs" firstAttribute="top" secondItem="7nh-Le-46U" secondAttribute="bottom" constant="41" id="xjL-aQ-v8l"/>
+                            <constraint firstItem="kym-Mj-Djs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="xx4-98-iBX"/>
+                            <constraint firstItem="kym-Mj-Djs" firstAttribute="bottom" secondItem="ahe-z4-5c7" secondAttribute="bottom" id="yKc-yZ-7RA"/>
+                            <constraint firstItem="lIO-ZW-Bl5" firstAttribute="top" secondItem="dP5-pP-F2c" secondAttribute="top" id="yTT-RX-HLF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dejkoveci" destination="5U2-3n-g2g" id="kil-4h-pKa"/>
+                        <outlet property="eagle1" destination="kym-Mj-Djs" id="oGT-ro-6Jx"/>
+                        <outlet property="eagle2" destination="ahe-z4-5c7" id="1tI-o4-bMU"/>
+                        <outlet property="eagle3" destination="lnB-jI-td6" id="LDg-cv-r89"/>
+                        <outlet property="eagle4" destination="QlD-0o-KF2" id="yGw-Tz-CsZ"/>
+                        <outlet property="eagle5" destination="Yew-Ds-ozb" id="HiA-zO-Ji5"/>
+                        <outlet property="eagle6" destination="k4H-n5-0Tk" id="dBW-cV-EUA"/>
+                        <outlet property="eagle7" destination="lIO-ZW-Bl5" id="kjX-zZ-25f"/>
+                        <outlet property="eagle8" destination="dP5-pP-F2c" id="uoU-dc-qO4"/>
+                        <outlet property="eagle9" destination="cvO-bf-Jjr" id="qGI-AM-9Mi"/>
+                        <outlet property="highScoreLabel" destination="H92-x0-a88" id="R6i-ie-GGD"/>
+                        <outlet property="scoreLabel" destination="7nh-Le-46U" id="6uU-o9-4zV"/>
+                        <outlet property="timeLabel" destination="qJ8-a2-29y" id="HV1-gu-uz6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="44" y="79.610194902548727"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dejkoveci" width="335" height="359"/>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
